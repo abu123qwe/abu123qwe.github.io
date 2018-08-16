@@ -275,6 +275,7 @@ margin-bottom: 20px;
 }
 
 .us-adv {
+	display: inline-block;
     height: 383px;
     width: 100%;
 }
