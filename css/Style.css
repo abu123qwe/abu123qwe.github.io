@@ -255,7 +255,7 @@ margin-bottom: 20px;
 }
 
 .text {
-    display: inline-block;
+    display: block;
     height: 250px;
     width: 100%;
     padding-left: 106px;
