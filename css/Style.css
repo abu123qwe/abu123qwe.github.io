@@ -255,7 +255,7 @@ margin-bottom: 20px;
 }
 
 .text {
-    display: flex;
+    display: block;
     height: 250px;
     width: 100%;
     padding-left: 106px;
@@ -272,9 +272,12 @@ margin-bottom: 20px;
 }
 
 .text .text_left {
-    width: 50%;
+    width: 60%;
+    float: left;
+    height: 250px;
     margin-right: 5%;
 }
+
 
 .text span {
     color: #513a95;
