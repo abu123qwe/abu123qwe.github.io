@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    max-width: 1400px;
+    width: 1400px;
     margin: 0 auto;
 }
 
@@ -13,6 +13,7 @@ body{
     top: 0;
     z-index: 10000;
     height: 50px;
+    width: 1400px;
     background: #513a95;
 }
 
@@ -129,7 +130,7 @@ body{
 
 .car {
     z-index: 0;
-    width: 1400px;
+    width: 100%;
     height: 400px;
     background-image: url('../img/gorod.png');
     background-size: contain;
@@ -255,8 +256,8 @@ margin-bottom: 20px;
 
 .text {
     height: 250px;
-    width: 1316px;
-    margin-left: 106px;
+    width: 100%;
+    padding-left: 106px;
     margin-top: 51px;
     font-family: Arial;
     font-size: 17px;
@@ -266,7 +267,7 @@ margin-bottom: 20px;
     line-height: normal;
     letter-spacing: normal;
     text-align: left;
-    color: #9b9b9b;
+    color: #464545;
 }
 
 .text span {
@@ -275,6 +276,7 @@ margin-bottom: 20px;
 
 .us-adv {
     height: 383px;
+    width: 100%;
 }
 
 .adv-icons {
@@ -457,7 +459,7 @@ margin-bottom: 20px;
     line-height: normal;
     letter-spacing: normal;
     text-align: left;
-    color: #9b9b9b;
+    color: #464545;
 }
 
 .left_points {
@@ -632,10 +634,9 @@ margin-bottom: 20px;
 .col3 {
     height: 250px;
     display: flex;
-    justify-content: space-between;
+    width: 100%;
+    justify-content: space-around;
     margin-top: 103px;
-    padding-left: 330px;
-    padding-right: 340px;
 }
 
 .otzivi {
@@ -694,6 +695,23 @@ margin-bottom: 20px;
 
 
 
+
+
+
+
+@font-face {
+	font-family:'Calibri';
+	src:url('../fonts/calibri.ttf') format('truetype');
+	font-weight:normal;
+	font-style:normal;
+} 
+
+@font-face {
+	font-family:'Arial';
+	src:url('../fonts/arial.ttf') format('truetype');
+	font-weight:normal;
+	font-style:normal;
+} 
 
 @font-face { 
     font-family: "HelveticaNeueCyr-Roman"; 
