@@ -1,5 +1,4 @@
 * {
-display: inline-block;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -256,6 +255,7 @@ margin-bottom: 20px;
 }
 
 .text {
+	display: inline-block;
     height: 250px;
     width: 100%;
     padding-left: 106px;
