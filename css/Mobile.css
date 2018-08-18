@@ -18,15 +18,7 @@
     .work-mobile {
     display: none;
     }
-}
 
-@media screen and (min-width:376px){
-    .hidden-menu-ticker,
-    .btn-menu,
-    .hidden-menu,.header-menu-mobile, .why,
-    .work-mobile,.contact {
-        display: none;
-    }
 }
 
 @media screen and (max-width:375px) {
@@ -458,6 +450,18 @@
         background-size: contain;
         margin-top: 40%;
         margin-left: 5%;
+    }
+}
+
+@media screen and (min-width:376px){
+    .hidden-menu-ticker,
+    .btn-menu,
+    .hidden-menu,
+    .header-menu-mobile,
+    .why,
+    .work-mobile,
+    .contact {
+        display: none;
     }
 }
 
